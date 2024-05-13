@@ -1,0 +1,25 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    background-color: gray;
+}
+
+img {
+        height: 1040px;
+        width: 1898px;
+    }
+.content{
+    background-color: white;
+    text-align: center;
+    width: 100%;
+}
+.container{
+    margin: 0 auto;
+    width: 68%;
+}
+table td {
+    text-align: left;
+    padding: 8px;
+    width: 13%;
+    border-top: 1px solid #000000;
+}
