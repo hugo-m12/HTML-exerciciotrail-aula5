@@ -1,25 +1,45 @@
 body{
     font-family: 'Roboto', sans-serif;
-    margin: 0 auto;
-    background-color: gray;
 }
-
 img {
         height: 1040px;
         width: 1898px;
     }
+    .flex{
+        display: flex;
+        gap: 5px
+    }
 .content{
     background-color: white;
     text-align: center;
-    width: 100%;
+    margin: 0 auto;
+    width: 80%;
 }
 .container{
+    background-color: gray;
     margin: 0 auto;
-    width: 68%;
+    width: 100%;
+}
+table tr {
+    text-align: left;
+    border-top: 1px solid;
 }
 table td {
-    text-align: left;
-    padding: 8px;
+    padding: 4px;
     width: 13%;
-    border-top: 1px solid #000000;
+    border-top: 1px solid;
+}
+footer{
+    background-color: rgb(70,56,56);
+    color: white;
+    width: 100%;
+}
+input{
+    text-align: center;
+}
+button{
+    color:white;
+    width: 158px;
+    height: 22px;
+    background-color: rgb(120,225,83);
 }
