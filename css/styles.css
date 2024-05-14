@@ -37,20 +37,24 @@ footer{
     width: 100%;
 }
 .footercontent{
-    padding : 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 input {
     text-align: center;
 }
-input text{
-    width: 275px;
-    height: 25px;
-}
-    
 button{
     color:white;
     border: none;
     width: 275px;
     height: 25px;
     background-color: rgb(120,225,83);
+}
+.menu{
+    padding : 50px;
+}
+.newsletter{
+    padding : 50px;
+    padding-right: 100px;
 }
