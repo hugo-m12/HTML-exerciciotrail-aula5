@@ -127,6 +127,49 @@ button{
     width: 410px;
     height: 5px;
 }
+.load-bar3{
+    background-color: lightgray;
+    width: 565px;
+    height: 5px;
+}
 .loadflex{
     display: flex;
 }
+.eventos p{
+    color: lightgray;
+}
+.eventos h2{
+    color: #009b7b;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.eventos h1{
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.eventos h3{
+    color: gray;
+}
+.eventos{
+    font-size: medium;
+}
+.flexevents{
+    display: flex;
+    align-items: center; 
+}
+
+.flexevents > *:not(:last-child) {
+    margin-right: 35px; 
+  }
+
+  .parent-div{
+    position: relative;
+  }
+  .second-group{
+    position: absolute;
+    top: -2px;
+    right: -29px;
+    font-size: xx-small;
+    }
