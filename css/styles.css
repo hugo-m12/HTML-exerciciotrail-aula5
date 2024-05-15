@@ -9,11 +9,32 @@ img {
         display: flex;
         gap: 5px
     }
+    .flex2{
+        display: flex;
+        gap: 30px
+    }
 .content{
     background-color: white;
     text-align: center;
     margin: 0 auto;
     width: 95%;
+}
+.formcontent{
+    background-color: white;
+    text-align: left;
+    margin: 0 auto;
+    width: 95%;
+}
+.formcontent button{
+    color:white;
+    border: none;
+    width: 573px;
+    height: 25px;
+    background-color: #00b187;
+}
+.formcontent img{
+    width: 570px;
+    height: 428px;
 }
 .container{
     background-color: gray;
@@ -41,7 +62,7 @@ footer{
     flex-direction: row;
     justify-content: space-between;
 }
-input {
+.footercontent input {
     text-align: center;
 }
 button{
@@ -57,4 +78,33 @@ button{
 .newsletter{
     padding : 50px;
     padding-right: 100px;
+}
+.Ligações{
+ color: white;
+ text-align: center;
+ font-family: 'Publica Sans'
+}
+.Ligações img{
+    width: 30px;
+    height: 30px;
+}
+.bupi{
+    background-color: #009b7b;
+    width: 460px;
+    height: 100px;
+}
+.complexos{
+    background-color: #009b7b;
+    width: 228px;
+    height: 100px;
+}
+.contactos{
+    background-color: #009b7b;
+    width: 150px;
+    height: 100px;
+}
+.flex3{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
 }
