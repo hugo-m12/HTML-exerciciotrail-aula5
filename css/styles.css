@@ -42,7 +42,8 @@ img {
     width: 100%;
 }
 table{
-    padding: 100px;
+    border-collapse: collapse;
+    margin: 10%;
 }
 table tr {
     text-align: left;
@@ -158,6 +159,8 @@ button{
 .flexevents{
     display: flex;
     align-items: center; 
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .flexevents > *:not(:last-child) {
