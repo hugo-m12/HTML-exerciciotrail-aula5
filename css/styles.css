@@ -25,6 +25,16 @@ img {
     margin: 0 auto;
     width: 95%;
 }
+.formcontent input[type="text"]{
+    text-align: left;
+    width: 267px;
+    height: 25px;
+}
+.email input[type="text"]{
+    text-align: left;
+    width: 573px;
+    height: 25px;
+}
 .formcontent button{
     color:white;
     border: none;
@@ -69,6 +79,7 @@ footer{
 button{
     color:white;
     border: none;
+    font-weight: bold;
     width: 275px;
     height: 25px;
     background-color: rgb(120,225,83);
